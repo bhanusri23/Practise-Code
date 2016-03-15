@@ -1,0 +1,18 @@
+import java.lang.Math; 
+public class HelloWorld
+{
+  public static void main(String[] args)
+  {
+     
+	int fib = 0,sum =1,res;
+    for(int i=0;i<11;i++)
+    {
+     
+      	res = fib + sum;
+      	fib = sum;
+      	sum = res;
+       System.out.println(sum);
+    }
+    
+  }
+}
